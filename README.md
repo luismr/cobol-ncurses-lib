@@ -12,6 +12,18 @@ This repository provides a **COBOL interface to the ncurses library**, allowing 
 - **Terminal-based UI support** in COBOL.
 - **Compatible with GNU COBOL**.
 
+## Requirements
+To build and use this library, you need the following:
+
+### Operating System
+- **macOS** (Homebrew recommended for package management)
+- **Debian-based Linux** (Ubuntu, Debian, etc.)
+- **Windows** (via MSYS2, Cygwin, or WSL)
+
+### Development Tools
+- **GNU C Compiler (GCC)** - Required to compile COBOL programs.
+- **Make** - Needed to build and manage compilation tasks.
+
 ## Installation
 Before using this library, ensure you have both **GNU COBOL** and **ncurses** installed.
 
@@ -83,4 +95,3 @@ Contributions are welcome! Feel free to submit issues or pull requests.
 
 ## License
 This project is licensed under the **MIT License**. See the [`LICENSE`](./LICENSE.md) file for details.
-
